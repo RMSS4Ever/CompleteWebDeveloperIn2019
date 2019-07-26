@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <title>
+      Complete Web Developer In 2019
+    </title>
+
+  </head>
+
+  <body>
+
+      <p>This is where, or think where, I'm going to be starting my course
+        "The Complete Web Developer In 2019: Zero to Mastery" from Udemy.
+      </p>
+
+  </body>
+
+</html>
+
