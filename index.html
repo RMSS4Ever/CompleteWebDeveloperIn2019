@@ -56,10 +56,20 @@
   </br>
   <p>Time to take a detour and work on Flavio Copes tutorial for creating tables.</p>
 </br>
+
+<!-- Going to try some CSS on this table -->
+<!-- Nope! Didn't work. If I remember right, there was something about adding an
+      inline CSS tag. Going to have to find that one. -->
+th, td
+{
+  padding: 10px;
+  border: 1px solid #333;
+
+}
   <table>
     <tr> <!-- This should be the columns -->
       <th>Stock</th>
-      <th>Yest Close</th>
+      <th>Close</th>
       <th>Open</th>
       <th>High</th>
       <th>Low</th>
@@ -67,23 +77,23 @@
     </tr>
 
     <tr> <!-- This should be the first row -->
-      <td>Row 1 Stock</td>
-      <td>Row 1 Yest Close</td>
-      <td>Row 1 Open</td>
-      <td>Row 1 High</td>
-      <td>Row 1 Low</td>
-      <td>Row 1 Last</td>
+      <td>YRIV</td>
+      <td>1.29</td>
+      <td>1.35</td>
+      <td>1.45</td>
+      <td>0.97</td>
+      <td>1.13</td>
     </tr>
 
     <tr> <!-- This should be the second row -->
       <td>Row 2 Stock</td>
-      <td>Row 2 Yest Close</td>
+      <td>Row 2 Close</td>
       <td>Row 2 Open</td>
       <td>Row 2 High</td>
       <td>Row 2 Low</td>
       <td>Row 2 Last</td>
     </tr>
-    
+
   </body>
 
 </html>
